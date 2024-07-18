@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> media query</title>
+    <style>
+        /*.para{
+            display: block;
+            background-color: aquamarine;
+            color: black;
+            border: 5px solid darkcyan;
+
+        }
+        
+        @media screen and (max-width:768px)
+        
+        {
+            .para{
+                display: none;
+
+            }
+        }*/
+        @media screen and (min-width: 768px)
+         {   
+        .grldconteiner{
+            display: grid;
+            background-color: blue;
+            border: 6px solid violet;
+            color: black;
+        }
+         .item{
+            border: 5px solid orangered;
+            background-color: yellowgreen;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+
+
+        }
+         }
+    </style>
+</head>
+<body>
+    <!---<div class="para">
+        <p> this is a media </p>
+    </div>!--->
+    <div class="grldconteiner">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    
+</body>
+</html>

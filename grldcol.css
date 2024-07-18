@@ -1,0 +1,8 @@
+.mybox{
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: repeat(2,100px);
+    justify-content: center;
+    align-content: space-evenly;
+    height: 600px;
+
+}
