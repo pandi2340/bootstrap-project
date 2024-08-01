@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="type something...">
+    <input type="button" value="add" 
+    onclick="addItem()"><br>
+    <input type="text">
+    <input type="button" value="remove">
+    
+</body>
+<script>
+    let list =[]
+    function addItem() {
+        let value = document.getElementById("itemTxt").value
+          list=[...list, value]
+          console.log(list)`
+        // let arr =[value]
+        
+
+        
+    }
+      function removeItem() {
+        let value = document.getElementById("itemValue").value
+        list.splice( value,1)
+        console.log(list);
+        
+      }
+</script>
+</html>
